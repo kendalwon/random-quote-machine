@@ -1,0 +1,70 @@
+$main-fonts: Georgia, serif;
+$dark-gray: #495057;
+$light-gray: #eee;
+
+body {
+  height: 100vh;
+  background: linear-gradient($dark-gray, white);
+  margin: 0;
+  font-family: $main-fonts;
+}
+ 
+#quote-box {
+  background-color: $light-gray;
+  width: 500px;
+  margin: 100px auto;
+  color: $dark-gray;
+  border-radius: 3px;
+} 
+
+#text {
+  padding: 30px 30px 0;
+  text-align: center;
+  font-size: 24px;
+}
+  
+#author {
+  margin: 20px 80px;
+  font-size: 20px;
+  text-align: right;
+}
+  
+#flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote, #new-quote {
+  margin: 10px 40px 30px 40px;
+  background-color: $dark-gray;
+  color: $light-gray;
+  border-radius: 3px;
+}
+ 
+#tweet-quote {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.tweet {
+  font-size: 20px;
+}
+  
+#new-quote {
+  border: none;
+  height: 40px;
+  padding: 10px;
+  width: 100px;
+  font-family: $main-fonts;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+#new-quote:hover {
+  background-color: darkorange;
+}
+  
+
+
+
